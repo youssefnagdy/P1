@@ -229,3 +229,31 @@ p{
 }
 
 /*End Of skills Section*/
+
+.resume{
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background: #F2F2F2;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.resume h2{
+
+}
+.resume p{
+    line-height: 1.7;
+    padding: 0 40px;
+}
+
+.resume button{
+    background: none;
+    color: #2DCC70;
+    padding: 8px 19px;
+    text-align: center;
+    border: 2px solid #2DCC70;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*End Of Resume Sections*/
