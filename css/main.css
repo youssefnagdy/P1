@@ -308,3 +308,154 @@ p{
 }
 
 /*End of MyEducation*/
+
+.testimonials{
+    margin-bottom: 50px;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.testimonials q
+{
+    color:#888;
+    font-size: 18px;
+    font-family: Arial;
+    font-style: italic;
+    line-height: 1.7;
+    font-weight: bold;
+}
+.testimonials h3{
+    margin-bottom: 30px;
+}
+.testimonials ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.testimonials ul li{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #2ecc71;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.testimonials ul li:nth-child(2)
+{
+    background:#2ecc71;
+}
+
+.testimonials ul li:hover{
+    background: #2ecc71;
+}
+/*End Of TestiMonials*/
+
+.port{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.port .project
+{
+    width: 33.33%;
+    float: left;
+    padding-bottom: 25px;
+
+}
+.port p{
+    padding: 0 0 10px 30px;
+}
+.port .project img{
+    width: 360px;
+    height: 300px;
+    border: 1px double #ccc;
+    padding: 3px;
+    cursor: zoom-in;
+}
+/*End of Porto*/
+.contact-me{
+    overflow: hidden;
+    background: #252F31;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.contact-me .info{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+.contact-me .form{
+    width: 45%;
+    float: left;
+}
+.contact-me h2
+{
+    color:white;
+    margin-left: 40px;
+}
+.contact-me p{
+    margin-left:40px;
+}
+.contact-me .form form label{
+    display: block;
+    color: #D1D6DA;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.contact-me .form form{
+    width: 80%;
+}
+.contact-me .form form input
+{
+    background: #4B5557;
+    padding: 10px;
+    border: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+}
+.contact-me .form textarea{
+    background: #4B5557;
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    border:none;
+}
+.contact-me .form button
+{
+    background: #191E22;
+    color:white;
+    border: none;
+    padding: 10px 25px;
+    cursor: hand;
+    font-size: 17px
+}
+/*End of Contact Me*/
+.footer{
+    background:#191E22;
+    color:#6A6E71;
+    overflow: hidden;
+    text-align: center;
+    height: 59px;
+    line-height: 59px;
+
+}
+.footer .copyright{
+    float: left;
+}
+.footer .links ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding-left: 0;
+}
+.footer .links ul li{
+    display: inline-block;
+
+}
+.footer .links ul li i{
+    font-size: 20px;
+}
