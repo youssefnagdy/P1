@@ -257,3 +257,54 @@ p{
     font-weight: bold;
 }
 /*End Of Resume Sections*/
+
+.my-education{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.clearfix{
+    clear: both;
+}
+.my-education hr
+{
+    height: 1px;
+    background: #999;
+    border: 0;
+    margin: 20px 0;
+}
+.my-education .main{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+.my-education .exp{
+    width: 45%;
+    float: left;
+    margin-top: 35px;
+
+}
+.my-education .exp h3{
+    margin-bottom: 0;
+}
+
+.cert-info{
+    color: #999;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.gpa{
+    margin-bottom: 30px;
+    background: #2DCC70;
+    color: white;
+    border: none;
+    padding: 4px 9px;
+    font-size: 15px;
+}
+
+.my-education .exp .certificate .cert-p{
+    padding-bottom: 30px;
+}
+
+/*End of MyEducation*/
