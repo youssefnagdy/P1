@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+}
+*{box-sizing: border-box}
+h2,h3{
+    color:#777;
+}
+p{
+    color:#888;
+    line-height: 1.7;
+}
+.fl-left{
+    float:left;
+}
+.container{
+    width:1170px;
+    margin:auto;
+}
+.header .slider{
+    background-image: url("../images/slider.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.header .slider .content
+{
+    text-align: center;
+    padding: 200px 0;
+    margin: auto;
+}
+.header .slider .content h2{
+    color:white;
+    width: 611px;
+    border-bottom: 3px solid white;
+    border-top:3px solid white;
+    margin:0 auto;
+    padding: 5px 0;
+    font-size: 50px;
+}
+.header .slider .content button
+{
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.header .navbar{
+    background: #252F31;
+    overflow: hidden;
+    color:white;
+}
+.header .navbar h2{
+    float: left;
+    color:white;
+}
+.header .navbar h2::first-letter{
+    color:#2ecc71;
+}
+.header .navbar ul{
+    list-style-type: none;
+    float: right;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+.header .navbar ul li.active{
+    color:#2ecc71;
+}
+.header .navbar ul li:hover{
+    color:#2ecc71;
+}
