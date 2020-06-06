@@ -89,7 +89,7 @@ p{
 }
 
 .features .feat h2{
-    color:#777;
+color:#777;
 }
 
 .features .feat p{
@@ -153,12 +153,13 @@ p{
     width: 83%;
 }
 .about-me .hobbies .content .text h3{
-    margin-bottom: 5px;
+   margin-bottom: 5px;
 }
 .about-me .hobbies .content .text p{
     margin:0;
 }
 
+/*End of About-Me */
 
 .wrapper{
     overflow: hidden;
@@ -328,7 +329,7 @@ p{
     font-weight: bold;
 }
 .testimonials h3{
-    margin-bottom: 30px;
+margin-bottom: 30px;
 }
 .testimonials ul{
     list-style-type: none;
